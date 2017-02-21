@@ -5,14 +5,14 @@
     <title>Page de démarrage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 
 <body>
-   <div class="acc">
-    <img src="img/fond.jpg" class="background" style="width: 100%; height: 950px;">
-          <a href="views/choix.php" class="myButton">start</a>
+   <div class="background">
+    <img src="img/fond1.jpg" class="back" style="width: 100%;">
+          <a href="../views/choix.php" class="myButton">START</a>
    </div>
 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
