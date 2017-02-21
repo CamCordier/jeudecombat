@@ -28,3 +28,17 @@
     z-index : 1;
     width: 100%;
 }
+.guerrier{
+    width:350px;
+    height:auto;
+}
+
+.magicienne{
+    width:250px;
+    height:auto;
+}
+
+.paladin{
+    width:250px;
+    height:auto;
+}
