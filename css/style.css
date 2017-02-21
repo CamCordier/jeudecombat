@@ -23,15 +23,6 @@
     color: ghostwhite;
 }
 
-.myButton:active {
-    opacity: 1;
-    border: 1px solid darkred;
-    text-decoration: none;
-    color: ghostwhite;
-    top:1px;
-
-}
-
 .background{
     position : relative ;
     z-index : 1;

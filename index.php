@@ -12,7 +12,7 @@
 <body>
    <div class="background">
     <img src="img/fond1.jpg" class="back" style="width: 100%;">
-          <a href="../views/choix.php" class="myButton">START</a>
+          <a href="views/choix.php" class="myButton">START</a>
    </div>
 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
