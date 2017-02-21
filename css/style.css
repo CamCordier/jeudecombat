@@ -28,17 +28,24 @@
     z-index : 1;
     width: 100%;
 }
-.guerrier{
+.guerrier img{
     width:350px;
     height:auto;
 }
 
-.magicienne{
-    width:250px;
-    height:auto;
+.magicienne img{
+    width: 350px;
+    height: 236px;
 }
 
-.paladin{
-    width:250px;
-    height:auto;
+.paladin img{
+    width: 350px;
+    height: 239px;
+}
+
+.choisir h1{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 2em;
+    font-size: 54px;
 }

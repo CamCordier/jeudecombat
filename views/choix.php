@@ -17,26 +17,27 @@
 
 <body>
 <div class="container">
-    <h1> Choix de votre personnage </h1>
+    <div class="choisir">
+    <h1> - Choix de votre personnage - </h1>
+        </div>
     <div class="row">
         <div class="col-md-4">
-            <h2>Guerrier</h2>
+            <h2 style="color: darkblue; margin-bottom: 1em;">Guerrier</h2>
             <p>Ce personnage se sert de son incroyable force surhumaine pour attaquer son adversaire. Il est musclé et détruit tout sur son passage. </p>
-            <p><img src="http://s1.1zoom.me/big3/125/342800-sepik.jpg" class="guerrier""><hr>
-            <a class="btn btn-default" href="#" role="button">Choisir ce profil  &raquo;</a></p>
+<br>            <img src="http://s1.1zoom.me/big3/125/342800-sepik.jpg" class="guerrier""><hr>
+            <p> <a class="btn btn-default" href="guerrier.php" role="button">Choisir ce profil  &raquo;</a></p>
         </div>
-        <div class="col-md-4">
-            <h2>Magicienne</h2>
+        <div class="col-md-4"><h2 style="color: darkmagenta; margin-bottom: 1em;">Magicienne</h2>
             <p>Ce personnage utilise la magie noire, mieux que la magie blanche pour déstabiliser son adversaire. Il jette des sorts. </p>
-            <p><img src="https://s-media-cache-ak0.pinimg.com/originals/3f/e7/8b/3fe78bde62ba6a93cd8be91ea08a16f4.jpg" class="magicienne"><hr>
-            <a class="btn btn-default" href="#" role="button">Choisir ce profil  &raquo;</a></p>
+            <br>  <img src="https://s-media-cache-ak0.pinimg.com/originals/3f/e7/8b/3fe78bde62ba6a93cd8be91ea08a16f4.jpg" class="magicienne"><hr>
+            <p><a class="btn btn-default" href="magicien.php" role="button">Choisir ce profil  &raquo;</a></p>
         </div>
         <div class="col-md-4">
-            <h2>Paladin</h2>
+            <h2 style="color: darkred;margin-bottom: 1em;">Paladin</h2>
             <p>Ce personnage réunit la force et la magie blanche. Moins fort que le guerrier dans sa force mais peut utiliser des sorts de magie blanche
                 pour s'en sortir face à l'ennemi.</p>
-            <p><img src="http://s1.1zoom.me/big7/186/World_of_WarCraft_485690.jpg" class="paladin"><hr>
-            <a class="btn btn-default" href="#" role="button">Choisir ce profil &raquo;</a></p>
+            <br> <img src="http://s1.1zoom.me/big7/186/World_of_WarCraft_485690.jpg" class="paladin"><hr>
+            <p> <a class="btn btn-default" href="paladin.php" role="button">Choisir ce profil &raquo;</a></p>
         </div>
     </div>
 
