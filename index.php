@@ -8,11 +8,10 @@
 </head>
 
 <body>
-<img src="" class="background">
-
-
-<a href="views/choix.php" class="myButton">start</a>
-
+   <div class="acc">
+    <img src="img/fond.jpg" class="background" style="width: 100%; height: 950px;">
+          <a href="views/choix.php" class="myButton">start</a>
+   </div>
 </body>
 
 

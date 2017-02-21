@@ -1,0 +1,29 @@
+.myButton {
+    margin-left: 40%;
+    -moz-box-shadow: inset -3px 1px 25px -2px #383838;
+    -webkit-box-shadow: inset -3px 1px 25px -2px #383838;
+    background-color: transparent;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #383838;
+    cursor: pointer;
+    color: black;
+    font-size: 23px;
+    padding: 12px 57px;
+    text-decoration: none;
+}
+
+.myButton:hover {
+    background-color: grey;
+    border: 1px solid black;
+    text-decoration: none;
+    color: darkred;
+}
+
+.myButton:active {
+    position:relative;
+    top:1px;
+    text-decoration: none;
+}
+
