@@ -17,7 +17,7 @@
 
 <body>
 <div class="container">
-    <!-- Example row of columns -->
+    <h1> Choix de votre personnage </h1>
     <div class="row">
         <div class="col-md-4">
             <h2>Guerrier</h2>

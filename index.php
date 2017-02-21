@@ -11,7 +11,7 @@
 
 <body>
    <div class="background">
-    <img src="img/fond1.jpg" class="back" style="width: 100%;">
+    <img src="img/fond1.jpg"  style="width: 100%;">
           <a href="views/choix.php" class="myButton">START</a>
    </div>
 
