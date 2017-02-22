@@ -1,33 +1,40 @@
-<html>
+<!DOCTYPE html>
+<html lang="fr">
+
 <head>
-    <link rel="stylesheet" type="text/CSS" href="../css/style.css" />
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <title>Choix du personnage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link href="../css/style.css" rel="stylesheet">
 </head>
+
 <body>
-<div class="portfoliocard">
-    <div class="coverphoto"></div>
-    <div class="profile_picture"></div>
-    <div class="left_col">
-        <div class="followers">
-            <div class="follow_count">18,541</div>
-            Followers
-        </div>
-        <div class="following">
-            <div class="follow_count">181</div>
-            Following
-        </div>
-    </div>
-    <div class="right_col">
-        <h2 class="name">John Doe</h2>
-        <h3 class="location">San Francisco, CA</h3>
-        <ul class="contact_information">
-            <li class="work">CEO</li>
-            <li class="website"><a class="nostyle" href="#">www.apple.com</a></li>
-            <li class="mail">john.doe@apple.com</li>
-            <li class="phone">1-(732)-757-2923</li>
-            <li class="resume"><a href="#" class="nostyle">download resume</a></li>
+
+<div class="backimage">
+<aside class="profile-card">
+    <header>
+        <h1>Nom de l'utilisateur</h1>
+        <h2>Mon profil</h2>
+    </header>
+    <div class="profile-bio">
+        <p> <strong>Guerrier ou Magicien ou Paladin</strong></p>
+        <ul class="social-icons list-unstyled list-inline">
+            <li>Mes points attaque : </li>
+            <li>Des points de magie :</li>
+            <li>Mes points défense : </li>
+            <li>Ma barre de vie : </li>
+            <li>Mon arme : </li>
+
         </ul>
     </div>
+</aside>
 </div>
 </body>
 </html>

@@ -20,6 +20,7 @@
 <div class="container">
 
     <div class="choisir">
+
          <h1>Choix de votre personnage</h1>
 
 
