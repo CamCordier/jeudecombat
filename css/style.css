@@ -580,3 +580,29 @@ div.portfoliocard div.follow_count{
         }
     }
 }
+
+
+.portfogame:before {
+    content: "";
+    position: fixed;
+    height: 100%; width: 100%;
+    background: url(../img/fond.jpg);
+    background-size: cover;
+    z-index: -1; /* Keep the background behind the content */
+    -webkit-filter: blur(8px);
+    -webkit-background-size: cover; /* pour Chrome et Safari */
+    -moz-background-size: cover; /* pour Firefox */
+    -o-background-size: cover; /* pour Opera */
+}
+
+.textgame p {
+    margin-top: 19%;
+    margin-left: 10%;
+    position: absolute;
+    text-shadow: 0 1px 0 #eee, 0 2px 0 #e5e5e5, -1px 3px 0 #C8C8C8, -1px 4px 0 #C1C1C1, -2px 5px 0 #B9B9B9, -2px 6px 0 #B2B2B2, -2px 7px 2px rgba(0,0,0, 0.6), -2px 7px 8px rgba(0,0,0, 0.2), -2px 7px 45px rgba(0,0,0, 0.4);
+    text-align: center;
+    color: darkred;
+    font-size: 190px;
+}
+
+
