@@ -18,12 +18,14 @@
 <body>
 <div class="container">
     <div class="choisir">
-    <h1> - Choix de votre personnage - </h1>
-        </div>
+         <h1> - Choix de votre personnage - </h1>
+    </div>
+
     <div class="row">
         <div class="col-md-4">
             <h2 style="color: darkblue; margin-bottom: 1em;">Guerrier</h2>
-            <p>Ce personnage se sert de son incroyable force surhumaine pour attaquer son adversaire. Il est musclé et détruit tout sur son passage. </p>
+            <p>Ce personnage se sert de son incroyable force surhumaine pour attaquer son adversaire.
+                Il est musclé et détruit tout sur son passage. </p>
 <br>        <div class="guerrier">
             <img src="http://s1.1zoom.me/big3/125/342800-sepik.jpg">
                 </div><hr>
@@ -45,7 +47,7 @@
                 pour s'en sortir face à l'ennemi.</p>
             <br>
             <div class="paladin">
-                <img src="http://s1.1zoom.me/big7/186/World_of_WarCraft_485690.jpg" class="paladin"><hr>
+                <img src="http://s1.1zoom.me/big7/186/World_of_WarCraft_485690.jpg"><hr>
             </div>
                 <p> <a class="btn btn-default" href="paladin.php" role="button">Choisir ce profil &raquo;</a></p>
         </div>

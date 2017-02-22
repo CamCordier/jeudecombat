@@ -11,7 +11,10 @@
 
 <body>
    <div class="background">
-    <img src="img/fond1.jpg" class="img-responsive" style="width: 1300px;">
+       <div class="fondimage">
+           <img src="img/fond1.jpg" class="img-responsive" style="width: 100%;">
+       </div>
+
           <a href="views/choix.php" class="myButton">START</a>
    </div>
 
