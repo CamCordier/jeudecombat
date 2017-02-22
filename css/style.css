@@ -49,11 +49,13 @@ h1, h2, h3, h4, h5, h6, p{
     height: 239px;
 }
 
-.choisir h1{
+.choisir h1 {
     text-align: center;
     margin-top: 10%;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.9em;
     font-size: 54px;
+    color: darkred;
+    font-weight: 500;
 }
 
 
@@ -165,7 +167,8 @@ figure.snip0058.green h2 {
     background: #1e8449;
 }
 figure.snip0058 a {
-    opacity: 0.7;
+    color: white;
+    font-weight: 500;
 }
 figure.snip0058 a:hover {
     opacity: 1;
@@ -331,4 +334,18 @@ div.portfoliocard div.follow_count{
     font-weight:400;
     font-size:25px;
     color:rgba(140,140,140,1);
+}
+
+
+.backimage:before {
+    content: "";
+    position: fixed;
+    height: 100%; width: 100%;
+    background: url(../img/fond.jpg);
+    background-size: cover;
+    z-index: -1; /* Keep the background behind the content */
+    -webkit-filter: blur(8px);
+    -webkit-background-size: cover; /* pour Chrome et Safari */
+    -moz-background-size: cover; /* pour Firefox */
+    -o-background-size: cover; /* pour Opera */
 }

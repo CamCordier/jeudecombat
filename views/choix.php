@@ -16,7 +16,9 @@
 </head>
 
 <body>
+<div class="backimage">
 <div class="container">
+
     <div class="choisir">
          <h1>Choix de votre personnage</h1>
 
@@ -44,7 +46,7 @@
     </figure>
     </div>
 </div>
-
+</div>
 <script>  /* Demo purposes only */
    $("figure").mouseleave(
        function () {
