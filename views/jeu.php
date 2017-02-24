@@ -1,5 +1,5 @@
 <?php
-class Jeu{
+class Jeu extends guerrier{
 
     public $perso;
 
@@ -10,10 +10,10 @@ class Jeu{
         }
         elseif($personnage  == "guerrier"){
             $this->perso =  new Guerrier('Guerrier');
-            echo "Guerrier" .$this->vie. "";
+
         }
         elseif($personnage == "mage"){
-            $this->perso =  new Mage('Mage');
+            $this->perso =  new Magicien('Mage');
         }
 
     }

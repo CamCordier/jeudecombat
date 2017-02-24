@@ -40,26 +40,34 @@
     <?php
     session_start();
 
+    require 'magicien.php';
+    require 'monstre.php';
+    require 'guerrier.php';
+    require 'paladin.php';
+    require 'jeu.php';
 
-    $merlin = unserialize($_SESSION["magicien"]);
 
-require 'magicien.php';
-require 'monstre.php';
-require 'jeu.php';
+    $personnage = $_POST["classe"];
+    $jeu = new Jeu();
+    $jeu->choix($personnage);
+    $_SESSION['personnage'] = $jeu->perso;
 
 
-    $dragon->attaque($merlin);
-    $merlin->sort($dragon);
+
+
+    $_SESSION['personnage']->attaque($dragon);
+    $dragon->attaque($_SESSION['personnage']);
 
     if($dragon->mort()){
         echo 'Le monstre est mort';
     }
 
 
-var_dump($dragon);
-var_dump($merlin);
 
-$_SESSION["magicien"] = serialize($merlin);
+
+var_dump($_SESSION);
+
+
 
 ?>
 

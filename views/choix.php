@@ -1,3 +1,10 @@
+<?php
+
+session_start();
+session_destroy();
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -28,7 +35,12 @@
         <figcaption>
             <p><span>Ce personnage se sert de son incroyable force surhumaine pour attaquer son adversaire.
                 Il est musclé et détruit tout sur son passage.</span></p>
-            <h2 class="white"><span><a href="donjon.php">Guerrier</a></span></h2>
+            <h2 class="white"><span>
+                    <a href="donjon.php">Guerrier</a></span></h2>
+            <form method="post" action="donjon.php">
+                <input type="hidden" name="classe" value="guerrier">
+                <input type="submit" value="Start">
+            </form>
 
         </figcaption>
     </figure>
@@ -36,6 +48,10 @@
         <figcaption>
             <p><span>Ce personnage utilise la magie noire, mieux que la magie blanche pour déstabiliser son adversaire. Il jette des sorts.</span></p>
             <h2><span><a href="donjon.php">Magicienne</a></span></h2>
+            <form method="post" action="donjon.php">
+                <input type="hidden" name="classe" value="mage">
+                <input type="submit" value="Start">
+            </form>
         </figcaption>
     </figure>
     <figure class="snip0058"><img src="http://s1.1zoom.me/big7/186/World_of_WarCraft_485690.jpg" alt="sample37" a href="donjon.php"/>
@@ -48,6 +64,16 @@
     </div>
 </div>
 </div>
+
+
+
+<form method="post" action="donjon.php">
+    <select name="classe" id="classe">
+        <option value="mage">Mage</option>
+    </select>
+    <input type="submit" value="Start">
+</form>
+
 <script>  /* Demo purposes only */
    $("figure").mouseleave(
        function () {

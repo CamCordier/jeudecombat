@@ -2,16 +2,13 @@
 class Guerrier // Présence du mot-clé class suivi du nom de la classe.
 {
     // Déclaration des attributs et méthodes ici.
-    private $attaque = 20;            // La force du personnage, par défaut à 50.
+    private $attaque = 100;            // La force du personnage, par défaut à 50.
     private $_armure = 60;
-    private $vie = 100;
+    public $vie = 100;
     private $_arme = 80;
     private $nom;
 
-    public function __construct($nom)
-    {
-        $this->nom = $nom;
-    }
+
 
     public function regenerer($vie = null){ // Une méthode qui déplacera le personnage (modifiera sa localisation).
         if(is_null($vie)){
@@ -31,7 +28,7 @@ class Guerrier // Présence du mot-clé class suivi du nom de la classe.
 
     public function mort()
     {
-        $this->vie == 0;
+        return $this->vie <= 0;
     }
 
     function setVie($vie) {

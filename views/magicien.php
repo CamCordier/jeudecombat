@@ -18,9 +18,9 @@ class Magicien // Présence du mot-clé class suivi du nom de la classe.
         $this->vie = 100;
     }
 
-    public function sort($cible2)
+    public function attaque($cible)
     {
-        $cible2->setVie($cible2->getVie() - $this->magie);
+        $cible->setVie($cible->getVie() - $this->magie);
     }
 
 

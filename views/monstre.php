@@ -2,7 +2,7 @@
 class Monstre // Présence du mot-clé class suivi du nom de la classe.
 {
     // Déclaration des attributs et méthodes ici.
-    private $attaque = 25;            // La force du personnage, par défaut à 50.
+    private $attaque = 80;            // La force du personnage, par défaut à 50.
     private $_armure = 60;
     private $vie = 100;
     private $_arme = 80;
@@ -31,7 +31,7 @@ class Monstre // Présence du mot-clé class suivi du nom de la classe.
 
     public function mort()
     {
-        $this->vie == 0;
+        return $this->vie <= 0;
     }
 
     function setVie($vie) {
