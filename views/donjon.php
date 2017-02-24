@@ -37,7 +37,31 @@
        </div>
     </div>
 <div>
+    <?php
+    session_start();
 
+
+    $merlin = unserialize($_SESSION["magicien"]);
+
+require 'magicien.php';
+require 'monstre.php';
+require 'jeu.php';
+
+
+    $dragon->attaque($merlin);
+    $merlin->sort($dragon);
+
+    if($dragon->mort()){
+        echo 'Le monstre est mort';
+    }
+
+
+var_dump($dragon);
+var_dump($merlin);
+
+$_SESSION["magicien"] = serialize($merlin);
+
+?>
 
 
 
