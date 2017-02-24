@@ -35,30 +35,30 @@ session_destroy();
         <figcaption>
             <p><span>Ce personnage se sert de son incroyable force surhumaine pour attaquer son adversaire.
                 Il est musclé et détruit tout sur son passage.</span></p>
-            <h2 class="white"><span>
-                    <a href="donjon.php">Guerrier</a></span></h2>
-            <form method="post" action="donjon.php">
+            <h2><span><form method="post" action="donjon.php">
                 <input type="hidden" name="classe" value="guerrier">
-                <input type="submit" value="Start">
-            </form>
+                <input type="submit" value="Guerrier">
+            </form></span></h2>
 
         </figcaption>
     </figure>
     <figure class="snip0058"><img src="https://s-media-cache-ak0.pinimg.com/originals/3f/e7/8b/3fe78bde62ba6a93cd8be91ea08a16f4.jpg" alt="sample37"/>
         <figcaption>
             <p><span>Ce personnage utilise la magie noire, mieux que la magie blanche pour déstabiliser son adversaire. Il jette des sorts.</span></p>
-            <h2><span><a href="donjon.php">Magicienne</a></span></h2>
-            <form method="post" action="donjon.php">
+            <h2><span><form method="post" action="donjon.php">
                 <input type="hidden" name="classe" value="mage">
-                <input type="submit" value="Start">
-            </form>
+                <input type="submit" value="Magicienne">
+            </form></span></h2>
         </figcaption>
     </figure>
     <figure class="snip0058"><img src="http://s1.1zoom.me/big7/186/World_of_WarCraft_485690.jpg" alt="sample37" a href="donjon.php"/>
         <figcaption>
             <p><span>Ce personnage réunit la force et la magie blanche. Moins fort que le guerrier dans sa force mais peut utiliser des sorts de magie blanche
                 pour s'en sortir face à l'ennemi.</span></p>
-            <h2><span><a href="donjon.php">Paladin</a></span></h2>
+            <h2><span><form method="post" action="donjon.php">
+                <input type="hidden" name="classe" value="paladin">
+                <input type="submit" value="Paladin">
+            </form></span></h2>
         </figcaption>
     </figure>
     </div>
@@ -67,12 +67,6 @@ session_destroy();
 
 
 
-<form method="post" action="donjon.php">
-    <select name="classe" id="classe">
-        <option value="mage">Mage</option>
-    </select>
-    <input type="submit" value="Start">
-</form>
 
 <script>  /* Demo purposes only */
    $("figure").mouseleave(
