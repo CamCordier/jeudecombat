@@ -40,11 +40,16 @@
     <?php
     session_start();
 
+
     require 'magicien.php';
     require 'monstre.php';
     require 'guerrier.php';
     require 'paladin.php';
     require 'jeu.php';
+    require 'battle.php';
+    require 'coffre.php';
+
+
 
 
     $personnage = $_POST["classe"];
@@ -54,22 +59,33 @@
 
 
 
-
     $_SESSION['personnage']->attaque($dragon);
     $dragon->attaque($_SESSION['personnage']);
 
-    if($dragon->mort()){
+
+    if ($dragon->mort()) {
         echo 'Le monstre est mort';
+    } elseif ($_SESSION['personnage']->mort()) {
+        echo 'Vous etes mort';
     }
 
 
-
-
-var_dump($_SESSION);
+    var_dump($_SESSION);
+    var_dump($dragon);
 
 
 
 ?>
+
+<form method="POST" action="donjon.php">
+    <input type="hidden" name="combat" value="combat">
+    <input type="submit" value="Combat">
+</form>
+
+    <form method="POST" action="">
+        <input type="hidden" name="coffre" value="coffre">
+        <input type="submit" value="Ouvrir coffre">
+    </form>
 
 
 

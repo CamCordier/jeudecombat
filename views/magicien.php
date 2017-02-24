@@ -2,11 +2,11 @@
 class Magicien // Présence du mot-clé class suivi du nom de la classe.
 {
     // Déclaration des attributs et méthodes ici.
-    private $magie = 100;            // La force du personnage, par défaut à 50.
-    private $_armure = 60;
-    private $vie = 100;
-    private $_arme = 80;
-    private $nom;
+    public $attaque = 100;            // La force du personnage, par défaut à 50.
+    public $armure = 60;
+    public $vie = 100;
+    public $_arme = 80;
+    public $nom;
 
     public function __construct($nom)
     {
@@ -20,7 +20,7 @@ class Magicien // Présence du mot-clé class suivi du nom de la classe.
 
     public function attaque($cible)
     {
-        $cible->setVie($cible->getVie() - $this->magie);
+        $cible->setVie($cible->getVie() - $this->attaque);
     }
 
 

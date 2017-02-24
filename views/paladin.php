@@ -2,11 +2,11 @@
 class Paladin // Présence du mot-clé class suivi du nom de la classe.
 {
     // Déclaration des attributs et méthodes ici.
-    private $attaque = 40;            // La force du personnage, par défaut à 50.
-    private $_armure = 60;
-    private $vie = 100;
-    private $_arme = 80;
-    private $nom;
+    public $attaque = 40;            // La force du personnage, par défaut à 50.
+    public $armure = 60;
+    public $vie = 100;
+    public $_arme = 80;
+    public $nom;
 
     public function __construct($nom)
     {
@@ -31,7 +31,7 @@ class Paladin // Présence du mot-clé class suivi du nom de la classe.
 
     public function mort()
     {
-        return $this->vie <= 0;
+        return $this->vie <= 25;
     }
 
     function setVie($vie) {
@@ -44,7 +44,6 @@ class Paladin // Présence du mot-clé class suivi du nom de la classe.
 
 
 }
-$achille = new Paladin("fred");
 
 
 ?>

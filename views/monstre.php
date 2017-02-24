@@ -2,11 +2,11 @@
 class Monstre // Présence du mot-clé class suivi du nom de la classe.
 {
     // Déclaration des attributs et méthodes ici.
-    private $attaque = 80;            // La force du personnage, par défaut à 50.
-    private $_armure = 60;
-    private $vie = 100;
-    private $_arme = 80;
-    private $nom;
+    public $attaque = 80;            // La force du personnage, par défaut à 50.
+    public $_armure = 60;
+    public $vie = 100;
+    public $_arme = 80;
+    public $nom;
 
     public function __construct($nom)
     {

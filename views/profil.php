@@ -17,24 +17,42 @@
 
 <body>
 
-<div class="backimage">
-<aside class="profile-card">
-    <header>
-        <h1>Nom de l'utilisateur</h1>
-        <h2>Mon profil</h2>
-    </header>
-    <div class="profile-bio">
-        <p> <strong>Guerrier ou Magicien ou Paladin</strong></p>
-        <ul class="social-icons list-unstyled list-inline">
-            <li>Mes points attaque : </li>
-            <li>Des points de magie :</li>
-            <li>Mes points défense : </li>
-            <li>Ma barre de vie : </li>
-            <li>Mon arme : </li>
 
-        </ul>
-    </div>
-</aside>
-</div>
+
+<?php
+session_start();
+
+require 'magicien.php';
+require 'monstre.php';
+require 'guerrier.php';
+require 'paladin.php';
+require 'jeu.php';
+require 'battle.php';
+require 'coffre.php';
+
+
+$personnage = $_POST["classe"];
+$jeu = new Jeu();
+$jeu->choix($personnage);
+$_SESSION['personnage'] = $jeu->perso;
+
+
+
+
+var_dump($_SESSION);
+
+echo 'Je suis un '.$_SESSION['personnage']->nom;
+echo '<br>';
+echo  'Mes points de vie :'.$_SESSION['personnage']->vie;
+echo '<br>';
+echo 'Mon attaque :'.$_SESSION['personnage']->attaque;
+echo '<br>';
+echo 'Mon armure :'.$_SESSION['personnage']->armure;
+
+
+?>
+
+
+
 </body>
 </html>
