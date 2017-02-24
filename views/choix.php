@@ -68,7 +68,7 @@ session_destroy();
     </figure>
     <figure class="snip0058"><img src="http://s1.1zoom.me/big7/186/World_of_WarCraft_485690.jpg" alt="sample37" a href="donjon.php"/>
         <figcaption>
-            <p><span>Ce personnage réunit la force et la magie blanche. Moins fort que le guerrier dans sa force mais peut utiliser des sorts de magie blanche
+            <p><span>Ce perso personnage réunit la force et la magie blanche. Moins fort que le guerrier dans sa force mais peut utiliser des sorts de magie blanche
                 pour s'en sortir face à l'ennemi.</span></p>
             <h2><span>
             <form method="post" action="profil.php">
